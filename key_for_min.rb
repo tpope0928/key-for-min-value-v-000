@@ -4,4 +4,5 @@
 def key_for_min_value(name_hash)
   minimum = nil
   min_name = nil
-  if minimum == nil || minimum > value
+  
+    if minimum == nil || minimum > value
