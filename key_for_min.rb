@@ -10,9 +10,9 @@ def key_for_min_value(name_hash)
     name_hash.eaach do |key, value|
       if value < min_key
         min_value = value
-          min_key = key
-        end
+        min_key = key
       end
+  end
       min_key
   end 
 end
