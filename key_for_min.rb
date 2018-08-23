@@ -7,6 +7,6 @@ def key_for_min_value(name_hash)
   else
     min_value = name_hash.first[1]
     min_key = name_hash.first[0]
-    name_hash.eaach do |
+    name_hash.eaach do |key, value|
       if value < min_key
 end
